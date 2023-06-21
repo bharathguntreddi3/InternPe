@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quiz</h1>
+    <div id="quiz">
+      <div class="question">
+        <h2>Question 1:</h2>
+        <p>What does HTML stand for?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q1" value="a"> a) Hyper Text Markup Language
+          </label>
+          <label>
+            <input type="radio" name="q1" value="b"> b) Home Tool Markup Language
+          </label>
+          <label>
+            <input type="radio" name="q1" value="c"> c) Hyperlinks and Text Markup Language
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>Question 2:</h2>
+        <p>Which programming language is known as the "mother of all languages"?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q2" value="a"> a) C
+          </label>
+          <label>
+            <input type="radio" name="q2" value="b"> b) Java
+          </label>
+          <label>
+            <input type="radio" name="q2" value="c"> c) Assembly
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>Question 3:</h2>
+        <p>What does CSS stand for?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q3" value="a"> a) Cascading Style Sheets
+          </label>
+          <label>
+            <input type="radio" name="q3" value="b"> b) Computer Style Sheets
+          </label>
+          <label>
+            <input type="radio" name="q3" value="c"> c) Creative Style Sheets
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>Question 4:</h2>
+        <p>What is the main function of a firewall?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q4" value="a"> a) To protect against viruses and malware
+          </label>
+          <label>
+            <input type="radio" name="q4" value="b"> b) To control network traffic and access
+          </label>
+          <label>
+            <input type="radio" name="q4" value="c"> c) To manage computer hardware and software
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>Question 5:</h2>
+        <p>What is the purpose of a version control system?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q5" value="a"> a) To track changes in software code
+          </label>
+          <label>
+            <input type="radio" name="q5" value="b"> b) To optimize database performance
+          </label>
+          <label>
+            <input type="radio" name="q5" value="c"> c) To encrypt sensitive data
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>Question 6:</h2>
+        <p>What is the purpose of a cookie in web development?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="q6" value="a"> a) To store user preferences and session information
+          </label>
+          <label>
+            <input type="radio" name="q6" value="b"> b) To improve website security
+          </label>
+          <label>
+            <input type="radio" name="q6" value="c"> c) To display dynamic content on web pages
+          </label>
+        </div>
+      </div>
+      <button onclick="checkAnswers()">Submit</button>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+<script src="Javascript/script.js"></script>
+</body>
+
+</html>
